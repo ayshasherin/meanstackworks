@@ -1,0 +1,56 @@
+.parent{
+    border: 1px solid black;
+    background-color: darkred;
+    width: 522px;
+    height: 302px;
+    position: relative;
+}
+
+
+.col{
+    width: 100px;
+    height: 300px;
+    border: 1px solid cornsilk;
+
+}
+
+
+.col1{
+    position: absolute;
+    background-color: blueviolet;
+}
+
+
+.col2{
+    position: absolute;
+    background-color: darkblue;
+    left: 105px;
+}
+
+
+.col3{
+    position: absolute;
+    background-color: saddlebrown;
+    left: 210px;
+}
+
+
+.col4{
+    position: absolute;
+    background-color: violet;
+    left: 316px;
+}
+
+
+.col5{
+    position: absolute;
+    background-color: rgb(24, 129, 3);
+    left: 421px;
+}
+
+.row{
+    margin-top: -415px;
+    margin-left: 600px;
+}
+
+

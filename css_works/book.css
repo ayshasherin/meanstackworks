@@ -1,0 +1,14 @@
+div{
+    width: 24%;
+    height: 600px; 
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+ }
+ img{
+     width: 100%;
+     height: 60%;
+ }
+ 
+ 

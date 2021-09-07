@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+h1{
+    color: beige;
+    font-family: 'Permanent Marker', cursive;
+}
+
+div{
+    border: solid;
+    height: 151px;
+    width: 8%;
+    border-width: 5px;
+    border-color: black;
+    float: left;
+}
+
+.one{
+    background-color: #383d3a;
+    margin-top: 1px;
+    margin-left: 400px;
+}
+
+.two{
+    background-color: #3d6b42;
+    margin-top: 1px;
+    margin-left: 13px;
+}
+
+.three{
+    background-color: #36a343;
+    margin-top: 1px;
+    margin-left: 13px;
+}
+
+.four{
+    background-color: #10e829;
+    margin-top: 1px;
+    margin-left: 13px;
+}
+
+.five{
+    background-color: #d4c9c9a9;
+    margin-top: 1px;
+    margin-left: 13px;
+}
+
+.six{
+    background-color: #ff7700 ;
+    margin-top: 192px;
+    margin-left: -846px;
+}
+
+.seven{
+    background-color: #e03926;
+    margin-top: 192px;
+    margin-left: -702.6px;
+}
+
+
+.eight{
+    background-color: #b8635a;
+    margin-top: 192px;
+    margin-left: -560.6px;
+}
+
+.nine{
+    background-color: #9c5ab8;
+    margin-top: 192px;
+    margin-left: -417.5px;
+}
+
+.ten{
+    background-color: #3c0354;
+    margin-top: 192px;
+    margin-left: -273px;
+}
+
+.eleven{
+    background-color: #982cc7;
+    margin-top: 192px;
+    margin-left: -128.5px;
+}
+
+
+.twelve{
+    background-color: #53575e;
+    margin-top: 192px;
+    margin-left: 12.4px;
+}
+
+
+.thirteen{
+    background-color: #02fad9;
+    margin-top: 386px;
+    margin-left: -1140.6px;
+}
+
+
+.fourteen{
+    background-color: #4aff68;
+    margin-top: 386px;
+    margin-left: -996.6px;
+}
+
+.fifteen{
+    background-color: #f08d30;
+    margin-top: 386px;
+    margin-left: -849.6px;
+}
+
+
+.sixteen{
+    background-color: #880a2e;
+    margin-top: 386px;
+    margin-left: -704.6px;
+}
+
+.seventeen{
+    background-color: #29010c;
+    margin-top: 386px;
+    margin-left: -560.6px;
+}
+
+.eighteen{
+    background-color: #08d680;
+    margin-top: 386px;
+    margin-left: -415.6px;
+}
+
+.nineteen{
+    background-color: #0c9c4d;
+    margin-top: 386px;
+    margin-left: -274.6px;
+}
+
+.twenty{
+    background-color: #482c4b;
+    margin-top: 386px;
+    margin-left: -129.6px;
+}
+
+.twentyone{
+    background-color: #360338;
+    margin-top: 386px;
+    margin-left: 14.4px;
+}
+
+
+body{
+    background-color: black;
+}

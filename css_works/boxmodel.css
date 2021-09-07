@@ -1,0 +1,24 @@
+div{
+    border: solid;
+    height: 200px;
+    width: 40%;
+} /* to style overall boxes */
+
+.box1{
+    position: absolute;
+    background-color: rgb(207, 93, 207);
+    margin-top: 6%;
+    margin-left: 30%;
+}
+
+.box2{
+    position: absolute;
+    background-color: yellowgreen;
+    margin-top: 26%;
+    margin-left: 30%;
+}
+
+body{
+    background-image: url("./images/e.jpg");
+      
+}

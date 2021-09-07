@@ -1,0 +1,41 @@
+.parent{
+    width: 522px;
+    height: 302px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+     /*justify-content: space-evenly;
+       justify-content: space-around;
+       (these two has same properties.so use any one.*/ 
+       align-items: center;
+       justify-content: space-around;
+}
+
+
+.col{
+    width: 50px;
+    height: 200px;
+
+}
+
+
+.col1{
+    background-color: rgb(49, 226, 43);
+}
+
+
+.col2{
+    background-color: rgb(255, 100, 10);
+
+}
+
+
+.col3{
+    background-color: rgb(212, 9, 104);
+}
+
+
+.col4{
+    background-color: rgb(2, 114, 2);
+}
+
