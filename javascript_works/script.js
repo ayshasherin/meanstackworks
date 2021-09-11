@@ -14,10 +14,16 @@
 // console.log(company_name);
 // console.log(loc_name);
 
-var name="Aysha Sherin";
-const age="21";
-console.log(name);
-console.log(age);
-console.log("Hai i am Aysha Sherin");
+//var name="Aysha Sherin";
+//var age="21";
+//console.log(name);
+//console.log(age);
+//console.log("Hai i am"+name+age+"years old");
 
+
+///var location_name="kakkanad",company_name="luminar technolab";
+//console.log("our company",company_name,"locted in",location_name);
+//console.log(`our company ${company_name} located in ${location_name}`);
+
+//console.log(50<20<30);
 
