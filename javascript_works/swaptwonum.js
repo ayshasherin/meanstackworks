@@ -1,11 +1,7 @@
-var num1=10;
-var num2=20;
-if(num1){
-    console.log("20");
-}
-else if(num2){
-    console.log("10");
-}
-else{
-    console.log("none");
-}
+var num1=10,num2=20,temp;
+temp=num1;
+num1=num2;
+num2=temp;
+console.log(`after swapping num1 is ${num1} and num2 is ${num2}`);
+
+
