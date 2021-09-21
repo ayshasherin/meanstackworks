@@ -1,17 +1,15 @@
-
-    let row=5;
-    let str="";
-    for(let i=1;i<=row;i++){
-        for(let j=1;j<=row;j++){
-            str=str+" ";
-        }
-        i--;
-        for(let k=1;k<=i;k++){
-            str=str+"* ";
-        }
-        str=str+"\n";
+// 0 1 2 3
+for(let row=0;row<4;row++){
+    // row=1  1<4
+    let str=""; //str=""
+    for(let space=0;space<(4-row-1);space++){
+        str+=" "
+    }
+    for(let col=0;col<(row+1);col++){
+        str+="* "
     }
     console.log(str);
+}
 
 
 
@@ -19,19 +17,3 @@
 
 
 
-// function fullPyramid(row){
-//     let n=row;
-//     let str="";
-//     for(let i=1;i<=row;i++){
-//         for(let j=1;j<=n;j++){
-//             str=str+" ";
-//         }
-//         n--;
-//         for(let k=1;k<=i;k++){
-//             str=str+"* ";
-//         }
-//         str=str+"\n";
-//     }
-//     console.log(str);
-// }
-// console.log(fullPyramid(5));
