@@ -8,5 +8,34 @@ var products=[
 
 ]
 // print number of items in shop
+
+
+
+
+
+
+
+
+
+
+
+
 // print number of available items
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // print all product names only
+
+var items=products.map((item)=>item[1]);
+console.log(items);

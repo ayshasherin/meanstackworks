@@ -9,7 +9,41 @@ var employees=[
 ]
 
 
-console.log(employees[0][1]);
+// var employee_names=employees.map((emp)=>emp[1])
+// console.log(employee_names);
+
+
+for (let emp of employees){
+    console.log(emp[1]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(employees[0][1]);
 // //print number of employees
 
 // console.log(employees.length);
@@ -52,15 +86,15 @@ console.log(employees[0][1]);
 
 //print highest salary
 
-var high_salary=0;
-for(let employee of employees){
-    //employee=[1000,"ram",15000,"hr",1990,2000]...etc
-   //            0    1     2     3    4    5
-   if(high_salary<employee[2]){ //0<15000   15000<25000 ...etc...35000<35000
-    high_salary=employee[2];  //high_salary=0->15000->25000->30000->35000->40000
-   }
-}
-console.log("max salary",high_salary);
+// var high_salary=0;
+// for(let employee of employees){
+//     //employee=[1000,"ram",15000,"hr",1990,2000]...etc
+//    //            0    1     2     3    4    5
+//    if(high_salary<employee[2]){ //0<15000   15000<25000 ...etc...35000<35000
+//     high_salary=employee[2];  //high_salary=0->15000->25000->30000->35000->40000
+//    }
+// }
+// console.log("max salary",high_salary);
 
 
 
@@ -69,15 +103,15 @@ console.log("max salary",high_salary);
 //print lowest salary
 
 
-var low_salary=employees[0][2];//we get salary of first employee only
-for(let employee of employees){
-    //employee=[1000,"ram",15000,"hr",1990,2000]...etc
-   //            0    1     2     3    4    5
-   if(low_salary>employee[2]){ //15000>15000   15000>25000   15000>3000
-    low_salary=employee[2];  
-   }
-}
-console.log("min salary",low_salary);
+// var low_salary=employees[0][2];//we get salary of first employee only
+// for(let employee of employees){
+//     //employee=[1000,"ram",15000,"hr",1990,2000]...etc
+//    //            0    1     2     3    4    5
+//    if(low_salary>employee[2]){ //15000>15000   15000>25000   15000>3000
+//     low_salary=employee[2];  
+//    }
+// }
+// console.log("min salary",low_salary);
 
 
 
