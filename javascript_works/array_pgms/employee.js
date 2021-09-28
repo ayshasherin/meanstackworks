@@ -9,38 +9,63 @@ var employees=[
 ]
 
 
-// var employee_names=employees.map((emp)=>emp[1])
-// console.log(employee_names);
+// // var employee_names=employees.map((emp)=>emp[1])
+// // console.log(employee_names);
 
 
-for (let emp of employees){
-    console.log(emp[1]);
-}
+// // for (let emp of employees){
+// //     console.log(emp[1]);
+// // }
+
+
+// //print developer details
+
+// var developers=employees.filter(emp=>emp[3]=="developer")
+// console.log(developers);
+
+
+// //print names of each ba
+
+// var analyst=employees.filter(emp=>emp[3]=="ba").map(emp=>emp[1])
+// console.log(analyst);
+
+
+// var developer_names=employees.filter(emp=>emp[3]=="developer").map(emp=>emp[1])
+// console.log(developer_names);
+
+
+// //print developer names whose exp> 6 years
+// var exp_developers=employees.filter(emp=>(emp[3]=="developer") & ((emp[5]-emp[4])>6)).map(emp=>emp[1]) //we can do this by using two filters.This is called method chaining.
+// console.log(exp_developers);
+
+// // //add bonus of rs 5000 for all developers
+// var developer_salary=employees.filter(emp=>(emp[3]=="developer")).map(emp=>emp[2]+5000)
+// console.log(developer_salary);
 
 
 
+//sort employee experience in ascending and descending order
+
+// var employee_experience=employees.map(emp=>emp[5]-emp[4]).sort((emp1,emp2)=>emp1-emp2)
+// console.log(employee_experience);
+
+// var employees_experience=employees.map(emp=>emp[5]-emp[4]).sort((emp1,emp2)=>emp2-emp1)
+// console.log(employees_experience);
+
+// var emp_exp
 
 
 
+// //sort employees with respect to salary
+
+// employees.sort((emp1,emp2)=>emp2[2]-emp1[2])
+// console.log(employees);
 
 
+// //sot developers with respect to salary
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var developer_salary=employees.filter(emp=>emp[3]=="developer").sort((emp1,emp2)=>emp2[2]-emp1[2])
+// console.log(developer_salary);
 
 
 // console.log(employees[0][1]);

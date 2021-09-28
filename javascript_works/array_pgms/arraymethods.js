@@ -1,6 +1,7 @@
 //map
 //filter
 //reduce
+//reduceRight
 //sort
 //some
 //find
@@ -38,5 +39,11 @@ console.log(squares(2));
 
 
 var squares=(num)=>num**2
-console.log(squares(2));//square program using arrow function                     
+console.log(squares(2));//square program using arrow function            
+
+
+
+
+
+
 
