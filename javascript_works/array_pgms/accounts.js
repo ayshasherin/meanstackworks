@@ -31,6 +31,5 @@ console.log(account);
 
 
 // print details of users with acc_type as savings and balance > 25000
-var accou=accounts.filter(acc=>acc[2]=="savings" & acc[3]>25000).forEach(acc=>console.log(acc))                        
-
-
+var accou=accounts.filter(acc=>acc[2]=="savings" & acc[3]>25000)     
+console.log(accou);        
