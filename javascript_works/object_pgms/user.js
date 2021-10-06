@@ -230,3 +230,27 @@ var users=[
       }
     }
   ]
+
+// print username and email
+
+var res=users.map(user=>[user.username,user.email])
+console.log(res);
+
+
+// print username and zicode
+
+
+var resu=users.map(user=>[user.username,user.address.zipcode])
+console.log(resu);
+
+
+// print username and lat,lng
+
+var resul=users.map(user=>[user.username,user.address.geo])
+console.log(resul);
+
+
+
+
+
+
