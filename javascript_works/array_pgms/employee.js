@@ -8,6 +8,18 @@ var employees=[
     [1006,"jack",32000,"ba",2001,2010],
 ]
 
+var op=[]
+// for(let employee of employees){
+    
+    
+//     console.log("experienc= ",employee[5]-employee[4]);
+//     op.push(employee)
+// }
+var emp=employees.map(employee=>employee[5]-employee[4])
+
+console.log(emp);
+
+
 
 // // var employee_names=employees.map((emp)=>emp[1])
 // // console.log(employee_names);

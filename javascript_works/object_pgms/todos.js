@@ -1201,68 +1201,25 @@ var todos=[
     }
   ]
 
-  // all users total,finished,pending todos
-  //ie; 1:{total:20,finished:10,pending:10}
-  // use iteration
-  //ie; 1:{total:1//2//3//...,finished:1//2//3//...,pending:1//2//3//...} this is iterated
-
-  // var user_count={}
-  // // var count;
-  // // var flag;
-  // for(let data of todos){
-  //   var name=todos.userId
-  //   var value=todos.completed
-  //   if(data in user_count){
-  //     user_count[name]+=userId
-  //     if(value==true){
-  //       user_count[value]+=true
-  //     }
-  //     else{
-  //       user_count[value]+=false
-  //     }
-      
-  //   }
-  //   else{
-  //     user_count[name]=userId
-  //   }
-  // }
-  // console.log(user_count);
-
-var true_count=0;
-var false_count=0;
-var completed;
-var op=[]
-var res=todos.map(todo=>[todo.userId,todo.completed])
-for(let data of res){
-  if(userId in data){
-  if(completed==true){
-    count++
+  let data_report={};
+  for(let todo of todos){
+      if(todo.userId in data_report){
+          data_report[todo.userId].total+=1;
+          if(todo.completed==true){
+              data_report[todo.userId].finished+=1;
+          }
+          else{
+              data_report[todo.userId].pending+=1;
+          }
+      }
+      else{
+          data_report[todo.userId]={total:1,finished:0,pending:0};
+          if(todo.completed==true){
+              data_report[todo.userId]={total:1,finished:1,pending:0};
+          }
+          else{
+              data_report[todo.userId]={total:1,finished:0,pending:1};
+          }
+      }
   }
-  else{
-    false_count++
-  }
-}
-
-console.log(res);
-
-
-
-
-
-
-
-
-
-
-
-  // var arr=[10,11,10,20,21,21]
-  // var duplicates={}
-  // for(let num of arr){
-  //   if(num in duplicates){
-  //     duplicates[num]+=1
-  //   }
-  //   else{
-  //     duplicates[num]=1
-  //   }
-  // }
-  // console.log(duplicates);
+  console.log(data_report);
