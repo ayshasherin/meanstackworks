@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only ie: class container is default in bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+
+
+<body style="background-color: rgb(19, 112, 104);">
+    <h1 class="section"><b>CALCULATOR</b></h1>
+
+
+<div class="container">
+     
+    <input type="text" id="calc" placeholder="Result">
+    <button type="button" class="btn btn-danger" id="first" onclick="clearBox()"><b>C</b></button>
+
+
+    <button type="button" class="btn btn-secondary" id="one" onclick="displayValue(1)"><b>1</b></button>
+    <button type="button" class="btn btn-secondary" id="two" onclick="displayValue(2)"><b>2</b></button>
+    <button type="button" class="btn btn-secondary" id="three" onclick="displayValue(3)"><b>3</b></button>
+    <button type="button" class="btn btn-secondary" id="add" onclick="displayValue('+')"><b>+</b></button>
+
+
+
+    <button type="button" class="btn btn-secondary" id="four" onclick="displayValue(4)"><b>4</b></button>
+    <button type="button" class="btn btn-secondary" id="five" onclick="displayValue(5)"><b>5</b></button>
+    <button type="button" class="btn btn-secondary" id="six" onclick="displayValue(6)"><b>6</b></button>
+    <button type="button" class="btn btn-secondary" id="sub" onclick="displayValue('-')"><b>-</b></button>
+
+
+
+    <button type="button" class="btn btn-secondary" id="seven" onclick="displayValue(7)"><b>7</b></button>
+    <button type="button" class="btn btn-secondary" id="eight" onclick="displayValue(8)"><b>8</b></button>
+    <button type="button" class="btn btn-secondary" id="nine" onclick="displayValue(9)"><b>9</b></button>
+    <button type="button" class="btn btn-secondary" id="mul" onclick="displayValue('*')"><b>x</b></button>
+
+
+    <button type="button" class="btn btn-secondary" id="divi" onclick="displayValue('/')"><b>/</b></button>
+    <button type="button" class="btn btn-secondary" id="zero" onclick="displayValue(0)"><b>0</b></button>
+    <button type="button" class="btn btn-secondary" id="point" onclick="displayValue('.')"><b>.</b></button>
+    <button type="button" class="btn btn-secondary" id="equal" onclick="evalauteExpression()"><b>=</b></button>
+
+  
+</div>
+
+
+<script src="./scripts.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+div{
+
+    height: 151px;
+    width: -5%;
+   
+}
+
+
+
+
+
+.section{
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+
+#calc{
+        
+        height: 60px;
+        width: 30%;
+        text-align: center;
+        background-color: rgb(157, 156, 160);
+        border-radius: 5px;
+        align-items: center;
+        margin-top: 3%;
+        margin-left: 34%;
+    
+    
+}
+
+#first{
+
+    height: 41%;
+    width: 6%;
+
+}
+
+#one{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 441px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#two{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#three{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#add{
+    background-color: #383d3a;
+    height: 53%;
+    width: 6%;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+
+
+
+#four{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 441px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#five{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#six{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    height: 55%;
+    width: 9%;
+
+}
+
+
+
+
+
+#sub{
+
+    background-color: #383d3a;
+    height: 53%;
+    width: 6%;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+
+
+
+#seven{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 441px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#eight{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#nine{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+
+#mul{
+
+    background-color: #383d3a;
+    height: 53%;
+    width: 6%;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+
+
+#divi{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 441px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+
+#zero{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+
+#point{
+
+    background-color: #383d3a;
+    margin-top: 6px;
+    margin-left: 9px;
+    margin-right: -1px;
+    height: 55%;
+    width: 9%;
+
+}
+
+#equal{
+
+    background-color: #383d3a;
+    height: 53%;
+    width: 6%;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+
+
